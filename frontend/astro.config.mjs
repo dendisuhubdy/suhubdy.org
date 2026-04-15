@@ -8,4 +8,9 @@ export default defineConfig({
     host: '0.0.0.0',
     port: 4321,
   },
+  vite: {
+    server: {
+      allowedHosts: ['suhubdy.org', 'www.suhubdy.org'],
+    },
+  },
 });
